@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5664868025001D9700BFFBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664867F25001D9700BFFBF8 /* AppDelegate.swift */; };
+		5664868225001D9700BFFBF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664868125001D9700BFFBF8 /* SceneDelegate.swift */; };
+		5664868425001D9700BFFBF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664868325001D9700BFFBF8 /* ViewController.swift */; };
+		5664868725001D9700BFFBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5664868525001D9700BFFBF8 /* Main.storyboard */; };
+		5664868925001DB000BFFBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5664868825001DB000BFFBF8 /* Assets.xcassets */; };
+		5664868C25001DB000BFFBF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5664868A25001DB000BFFBF8 /* LaunchScreen.storyboard */; };
+		5664869725001DB000BFFBF8 /* MenterBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664869625001DB000BFFBF8 /* MenterBookTests.swift */; };
+		566486A225001DB000BFFBF8 /* MenterBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566486A125001DB000BFFBF8 /* MenterBookUITests.swift */; };
+		566486B325001E6200BFFBF8 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 566486B025001E6200BFFBF8 /* ryo.jpg */; };
+		566486B425001E6200BFFBF8 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 566486B125001E6200BFFBF8 /* nagata.jpg */; };
+		566486B525001E6200BFFBF8 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 566486B225001E6200BFFBF8 /* taithi.jpg */; };
+		566486B9250049D700BFFBF8 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566486B8250049D700BFFBF8 /* Mentor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5664869325001DB000BFFBF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5664867425001D9700BFFBF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5664867B25001D9700BFFBF8;
+			remoteInfo = MenterBook;
+		};
+		5664869E25001DB000BFFBF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5664867425001D9700BFFBF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5664867B25001D9700BFFBF8;
+			remoteInfo = MenterBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5664867C25001D9700BFFBF8 /* MenterBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenterBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5664867F25001D9700BFFBF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5664868125001D9700BFFBF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5664868325001D9700BFFBF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5664868625001D9700BFFBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5664868825001DB000BFFBF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5664868B25001DB000BFFBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5664868D25001DB000BFFBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5664869225001DB000BFFBF8 /* MenterBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenterBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5664869625001DB000BFFBF8 /* MenterBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenterBookTests.swift; sourceTree = "<group>"; };
+		5664869825001DB000BFFBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5664869D25001DB000BFFBF8 /* MenterBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenterBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566486A125001DB000BFFBF8 /* MenterBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenterBookUITests.swift; sourceTree = "<group>"; };
+		566486A325001DB000BFFBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566486B025001E6200BFFBF8 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		566486B125001E6200BFFBF8 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		566486B225001E6200BFFBF8 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		566486B8250049D700BFFBF8 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5664867925001D9700BFFBF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5664868F25001DB000BFFBF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5664869A25001DB000BFFBF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5664867325001D9700BFFBF8 = {
+			isa = PBXGroup;
+			children = (
+				5664867E25001D9700BFFBF8 /* MenterBook */,
+				5664869525001DB000BFFBF8 /* MenterBookTests */,
+				566486A025001DB000BFFBF8 /* MenterBookUITests */,
+				5664867D25001D9700BFFBF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5664867D25001D9700BFFBF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5664867C25001D9700BFFBF8 /* MenterBook.app */,
+				5664869225001DB000BFFBF8 /* MenterBookTests.xctest */,
+				5664869D25001DB000BFFBF8 /* MenterBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5664867E25001D9700BFFBF8 /* MenterBook */ = {
+			isa = PBXGroup;
+			children = (
+				5664867F25001D9700BFFBF8 /* AppDelegate.swift */,
+				5664868125001D9700BFFBF8 /* SceneDelegate.swift */,
+				5664868325001D9700BFFBF8 /* ViewController.swift */,
+				5664868525001D9700BFFBF8 /* Main.storyboard */,
+				5664868825001DB000BFFBF8 /* Assets.xcassets */,
+				5664868A25001DB000BFFBF8 /* LaunchScreen.storyboard */,
+				5664868D25001DB000BFFBF8 /* Info.plist */,
+				566486AF25001E6200BFFBF8 /* images */,
+				566486B8250049D700BFFBF8 /* Mentor.swift */,
+			);
+			path = MenterBook;
+			sourceTree = "<group>";
+		};
+		5664869525001DB000BFFBF8 /* MenterBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				5664869625001DB000BFFBF8 /* MenterBookTests.swift */,
+				5664869825001DB000BFFBF8 /* Info.plist */,
+			);
+			path = MenterBookTests;
+			sourceTree = "<group>";
+		};
+		566486A025001DB000BFFBF8 /* MenterBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				566486A125001DB000BFFBF8 /* MenterBookUITests.swift */,
+				566486A325001DB000BFFBF8 /* Info.plist */,
+			);
+			path = MenterBookUITests;
+			sourceTree = "<group>";
+		};
+		566486AF25001E6200BFFBF8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				566486B025001E6200BFFBF8 /* ryo.jpg */,
+				566486B125001E6200BFFBF8 /* nagata.jpg */,
+				566486B225001E6200BFFBF8 /* taithi.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5664867B25001D9700BFFBF8 /* MenterBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566486A625001DB000BFFBF8 /* Build configuration list for PBXNativeTarget "MenterBook" */;
+			buildPhases = (
+				5664867825001D9700BFFBF8 /* Sources */,
+				5664867925001D9700BFFBF8 /* Frameworks */,
+				5664867A25001D9700BFFBF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenterBook;
+			productName = MenterBook;
+			productReference = 5664867C25001D9700BFFBF8 /* MenterBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5664869125001DB000BFFBF8 /* MenterBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566486A925001DB000BFFBF8 /* Build configuration list for PBXNativeTarget "MenterBookTests" */;
+			buildPhases = (
+				5664868E25001DB000BFFBF8 /* Sources */,
+				5664868F25001DB000BFFBF8 /* Frameworks */,
+				5664869025001DB000BFFBF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5664869425001DB000BFFBF8 /* PBXTargetDependency */,
+			);
+			name = MenterBookTests;
+			productName = MenterBookTests;
+			productReference = 5664869225001DB000BFFBF8 /* MenterBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5664869C25001DB000BFFBF8 /* MenterBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566486AC25001DB000BFFBF8 /* Build configuration list for PBXNativeTarget "MenterBookUITests" */;
+			buildPhases = (
+				5664869925001DB000BFFBF8 /* Sources */,
+				5664869A25001DB000BFFBF8 /* Frameworks */,
+				5664869B25001DB000BFFBF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5664869F25001DB000BFFBF8 /* PBXTargetDependency */,
+			);
+			name = MenterBookUITests;
+			productName = MenterBookUITests;
+			productReference = 5664869D25001DB000BFFBF8 /* MenterBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5664867425001D9700BFFBF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "小林玲衣奈";
+				TargetAttributes = {
+					5664867B25001D9700BFFBF8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5664869125001DB000BFFBF8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5664867B25001D9700BFFBF8;
+					};
+					5664869C25001DB000BFFBF8 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5664867B25001D9700BFFBF8;
+					};
+				};
+			};
+			buildConfigurationList = 5664867725001D9700BFFBF8 /* Build configuration list for PBXProject "MenterBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5664867325001D9700BFFBF8;
+			productRefGroup = 5664867D25001D9700BFFBF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5664867B25001D9700BFFBF8 /* MenterBook */,
+				5664869125001DB000BFFBF8 /* MenterBookTests */,
+				5664869C25001DB000BFFBF8 /* MenterBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5664867A25001D9700BFFBF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566486B525001E6200BFFBF8 /* taithi.jpg in Resources */,
+				566486B325001E6200BFFBF8 /* ryo.jpg in Resources */,
+				566486B425001E6200BFFBF8 /* nagata.jpg in Resources */,
+				5664868C25001DB000BFFBF8 /* LaunchScreen.storyboard in Resources */,
+				5664868925001DB000BFFBF8 /* Assets.xcassets in Resources */,
+				5664868725001D9700BFFBF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5664869025001DB000BFFBF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5664869B25001DB000BFFBF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5664867825001D9700BFFBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566486B9250049D700BFFBF8 /* Mentor.swift in Sources */,
+				5664868425001D9700BFFBF8 /* ViewController.swift in Sources */,
+				5664868025001D9700BFFBF8 /* AppDelegate.swift in Sources */,
+				5664868225001D9700BFFBF8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5664868E25001DB000BFFBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5664869725001DB000BFFBF8 /* MenterBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5664869925001DB000BFFBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566486A225001DB000BFFBF8 /* MenterBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5664869425001DB000BFFBF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5664867B25001D9700BFFBF8 /* MenterBook */;
+			targetProxy = 5664869325001DB000BFFBF8 /* PBXContainerItemProxy */;
+		};
+		5664869F25001DB000BFFBF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5664867B25001D9700BFFBF8 /* MenterBook */;
+			targetProxy = 5664869E25001DB000BFFBF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5664868525001D9700BFFBF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5664868625001D9700BFFBF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5664868A25001DB000BFFBF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5664868B25001DB000BFFBF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		566486A425001DB000BFFBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		566486A525001DB000BFFBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		566486A725001DB000BFFBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenterBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.someone.MenterBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		566486A825001DB000BFFBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenterBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.someone.MenterBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		566486AA25001DB000BFFBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenterBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.someone.MenterBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenterBook.app/MenterBook";
+			};
+			name = Debug;
+		};
+		566486AB25001DB000BFFBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenterBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.someone.MenterBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenterBook.app/MenterBook";
+			};
+			name = Release;
+		};
+		566486AD25001DB000BFFBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenterBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.someone.MenterBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MenterBook;
+			};
+			name = Debug;
+		};
+		566486AE25001DB000BFFBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MenterBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.someone.MenterBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MenterBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5664867725001D9700BFFBF8 /* Build configuration list for PBXProject "MenterBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566486A425001DB000BFFBF8 /* Debug */,
+				566486A525001DB000BFFBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566486A625001DB000BFFBF8 /* Build configuration list for PBXNativeTarget "MenterBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566486A725001DB000BFFBF8 /* Debug */,
+				566486A825001DB000BFFBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566486A925001DB000BFFBF8 /* Build configuration list for PBXNativeTarget "MenterBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566486AA25001DB000BFFBF8 /* Debug */,
+				566486AB25001DB000BFFBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566486AC25001DB000BFFBF8 /* Build configuration list for PBXNativeTarget "MenterBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566486AD25001DB000BFFBF8 /* Debug */,
+				566486AE25001DB000BFFBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5664867425001D9700BFFBF8 /* Project object */;
+}
